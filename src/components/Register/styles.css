@@ -1,0 +1,34 @@
+.register .main-section{
+    width: 100%;
+    background-color: #0d5b46;
+    padding: 10px;
+}
+.main-section__title{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffffff;   
+}
+.main-section__form{
+    margin: 20px 10%;
+    text-align: center;
+}
+.main-section__form .form-group{
+    text-align: left;
+}
+.main-section__form--input{
+    background-color: #3fbcef;
+    border: 1px solid #3fbcef;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.main-section__form--input::placeholder{
+    color: white;
+}
+.main-section__form--label{
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.main-section__form--button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-size: 20px;
+}

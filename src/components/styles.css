@@ -1,0 +1,113 @@
+.header__panel{
+    display: none;
+}
+.logo-text__secundary{
+    display: none;
+}
+
+.navbar-green {
+    background-color: #0e2a1f;
+}
+
+.navbar-brand .logo-text{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.navbar-green .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-green .navbar-toggler {
+    border: 1px solid rgba(255,255,255,.1);
+} 
+
+.navbar-green .navbar-collapse{
+    padding-right: 30px;
+}
+.navbar-green .nav-link{
+    color:white
+}
+
+.header__logo--text{
+    color: white;
+}
+@media(min-width: 769px){
+    .navbar-green .navbar-brand{
+        position: relative;
+    }
+    .navbar-green .logo-img{
+        position: absolute;
+        left: 20px;
+        top: 51px;
+        width: 130px;
+        height: auto;
+        z-index: 3;
+    }
+    .navbar-green .logo-text__principal{
+        position: absolute;
+        top: 35px;
+        left: 160px;
+        font-size: 80px;
+        z-index: 2;
+    }
+    .navbar-green .logo-text__secundary{
+        display: inline-block;
+        position: absolute;
+        top: 121px;
+        left: 470px;
+        font-family: "Verdana";
+        font-size: 14px;
+        color: #8ad1ff;
+        text-align: right;
+        z-index: 2;
+    }
+    .header__panel{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-color: #113930;
+    }
+    .header__panel--two{
+        display: inline-block;
+        position: absolute;
+        width: 150px;
+        height: 75px;
+        border-radius: 0 100% 100% 0;
+        top: 0;
+        left: 99px;
+        background-color: #0e2a1f;
+    }
+    .header__panel--two:before{
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 100% 0 0 100%;
+        top: 0;
+        left: 0;
+        background-color: #113930;
+    }
+    .header__panel--one{
+        position: absolute;
+        border-radius: 0 100% 370% 0;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: #0e2a1f;
+    }
+    .header__panel--one:before{
+        content: "";
+        position: absolute;
+        border-radius: 100% 0 0 100%;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 50px;
+        background-color: #0e2a1f;
+    }
+}
