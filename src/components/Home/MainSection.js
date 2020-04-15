@@ -6,7 +6,7 @@ const MainSection = () => (
     <section className="main-section">
         <div className="main-section__opacity"></div>
         <ReactPlayer
-            url='http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4'
+            url='https://www.youtube.com/watch?v=FwY6_lK3Ero'
             className='react-player fullscreen-container'
             width='100%'
             height="auto"
