@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rosmara",
+      "lastName": "Martinez",
+      "company": "Biyuyo Spa",
+      "email": "rosanmarr@gmail.com",
+      "cell": "933730129"
+    },
+    {
+      "name": "Anthony",
+      "lastName": "Rangel",
+      "email": "anthony.15988@gmail.com",
+      "company": "Biyuyo Spa",
+      "checkedTC": false,
+      "cell": "940471242",
+      "id": 2
+    },
+    {
+      "name": "Anthony",
+      "lastName": "Rangel",
+      "email": "anthony.15988@gmail.com",
+      "company": "Biyuyo Spa",
+      "checkedTC": false,
+      "cell": "940471242",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

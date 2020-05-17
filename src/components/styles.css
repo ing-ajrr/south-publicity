@@ -1,3 +1,14 @@
+.header{
+    position: relative;
+    z-index: 5;
+}
+.image-cabecera{
+    display: none;
+}
+.navbar{
+    position: relative;
+    z-index: 3;
+}
 .header__panel{
     display: none;
 }
@@ -34,7 +45,36 @@
 .header__logo--text{
     color: white;
 }
-@media(min-width: 769px){
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #113930;
+}
+
+.image-asiento{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 6;
+    top: -6vw;
+}
+
+.image-asiento img{
+    width: 100%;
+}
+@media(min-width: 768px){
+    .image-cabecera{
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: -8vw;
+        z-index: 1;
+    }
+    .image-cabecera img{
+        width: 100%;
+    }
     .navbar-green .navbar-brand{
         position: relative;
     }
@@ -70,6 +110,7 @@
         width: 100%;
         height: 150px;
         background-color: #113930;
+        z-index: 2;
     }
     .header__panel--two{
         display: inline-block;

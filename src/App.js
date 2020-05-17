@@ -1,15 +1,21 @@
-import React from 'react';
-import Home from './components/Home';
-import Register from './components/Register';
-
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import HomeContainer from './containers/HomeContainer';
+import RegisterContainer from './containers/RegisterContainer';
 
-function App() {
-  return (
-    <div className="App">
-      <Home/>      
-    </div>
-  );
+
+class App extends Component{
+  render(){
+    return (
+      <Router>
+        <div className="App">
+          <Route exact path="/" component={HomeContainer} />
+          <Route exact path="/register" component={RegisterContainer} />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

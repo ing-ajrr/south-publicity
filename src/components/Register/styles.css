@@ -1,8 +1,9 @@
 .register .main-section{
     width: 100%;
     background-color: #0d5b46;
-    padding: 10px;
+    padding: 40px 20px 20px 20px;
 }
+
 .main-section__title{
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: bold;

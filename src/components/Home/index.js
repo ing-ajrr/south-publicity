@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from './../Header';
 import MainSection from './MainSection';
 import RegisterSection from './RegisterSection';
 import './styles.css';
 
-const Home = () => (
+const Home = ({ onRegister }) => (
     <div className="home">
-        <Header/>
         <MainSection/>
         <RegisterSection/>
     </div>

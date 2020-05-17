@@ -8,7 +8,7 @@ const ItemCarousel = ({ index, attrclass }) => (
 );
 
 ItemCarousel.propTypes = {
-    index: PropTypes.number.isRequired,
+    index: PropTypes.string.isRequired,
 }
 
 export default ItemCarousel;

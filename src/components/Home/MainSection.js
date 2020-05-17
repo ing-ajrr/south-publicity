@@ -2,6 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import Carousel from './Carousel';
 
+
 const MainSection = () => (
     <section className="main-section">
         <div className="main-section__opacity"></div>
